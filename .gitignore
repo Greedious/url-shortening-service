@@ -5,11 +5,6 @@
 bin/
 tmp/
 
-# Ignore Go module dependencies (if using Go modules)
-vendor/
-go.sum
-go.mod
-
 # Ignore test and coverage reports
 *.test
 *.coverprofile
@@ -18,7 +13,7 @@ go.mod
 # Ignore logs and temp files
 *.log
 *.tmp
-.data/
+
 
 # Ignore IDE/editor config files
 .vscode/

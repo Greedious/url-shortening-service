@@ -17,6 +17,7 @@ import (
 
 var envConfig *configs.Config
 
+// TODO: Add clear documentation for every function
 func main() {
 	loadEnvErr := godotenv.Load(".env")
 	if loadEnvErr != nil {

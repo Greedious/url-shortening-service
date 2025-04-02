@@ -6,7 +6,6 @@ import (
 	"strconv"
 )
 
-// Config struct holds all required environment variables
 type Config struct {
 	DBAddress string
 	APIPort   int
@@ -26,7 +25,6 @@ func LoadConfig() *Config {
 		}
 	}
 
-	// Convert numeric values
 	apiPort, err := strconv.Atoi(os.Getenv("API_PORT"))
 	if err != nil {
 		log.Fatalf("Error: API_PORT must be a valid integer")
