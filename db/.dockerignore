@@ -1,0 +1,20 @@
+# Ignore Go build artifacts
+*.exe
+*.out
+*.o
+bin/
+tmp/
+
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Git repo files
+.git
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml

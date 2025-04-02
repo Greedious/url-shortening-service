@@ -1,0 +1,32 @@
+# Ignore Go build artifacts
+*.exe
+*.out
+*.o
+bin/
+tmp/
+
+# Ignore Go module dependencies (if using Go modules)
+vendor/
+go.sum
+go.mod
+
+# Ignore test and coverage reports
+*.test
+*.coverprofile
+*.cov
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore environment and secret files
+.env
+config.json
+
+# Ignore compiled files (macOS/Linux)
+*.DS_Store
