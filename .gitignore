@@ -18,6 +18,7 @@ go.mod
 # Ignore logs and temp files
 *.log
 *.tmp
+.data/
 
 # Ignore IDE/editor config files
 .vscode/
